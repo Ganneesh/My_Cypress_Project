@@ -1,0 +1,22 @@
+{
+  "name": "cypress-atuomation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "mytest":"npm run test --spec cypress/e2e/backforward.js"
+  },
+  "keywords": [],
+  "author": "Ganesh Madane",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^13.4.0",
+    "cypress-xpath": "^2.0.1"
+  },
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.5",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1"
+  }
+}
