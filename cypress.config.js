@@ -6,6 +6,7 @@ module.exports = defineConfig({
     chromeWebSecurity:false,
     baseUrl:"https://www.google.com/",
     pageLoadTimeout:100000,
+    retries:2,
     setupNodeEvents(on, config) {
       
       // implement node event listeners here
