@@ -1,8 +1,10 @@
 
-let pattern=/G/
+let pattern=/aeou/
 let  str="Ganesh MadaneGGGGG"
 count=0
 console.log(pattern.test(str))
+
+
 
 for(let i=0;i<str.length;i++)
 {
@@ -12,4 +14,9 @@ for(let i=0;i<str.length;i++)
     }
 }
 console.log("Occurance of G:- "+count)
+
+cy.writeFile()
+
+
+
 

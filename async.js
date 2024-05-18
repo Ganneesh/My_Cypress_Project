@@ -1,26 +1,30 @@
 
 
- async function display()
-{
-console.log("Ganesh")
-}
+
+ function demo()
+ {
+    try{
+
+        return new Promise((reject,reslove)=>{
 
 
-async function show(num)
-{
-
-    for(let i=1;i<=5;i++)
-    {
-
-        if(num===3)
-        {
-            await display()
-        }
-        console.log(i)
-
+            setTimeout(()=>{
+    
+                reslove("Everything is fines")
+    
+    
+            },2000)
+    
+           
+    
+        })
+      
     }
-   
+    catch(error)
+    {
+        console.log(exception)
+    }
+    
+ }
 
-}
-
-show(3)
+ demo()

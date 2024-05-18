@@ -14,3 +14,5 @@ console.log(myarr1)
 
 const newarry=arr2.map(num=>num*2)
 console.log(newarry)
+
+const newarry1=arr2.filter()

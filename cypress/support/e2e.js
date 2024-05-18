@@ -14,11 +14,14 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
+import 'cypress-mochawesome-reporter/register'
 import './commands'
 import 'cypress-file-upload'
 import 'cypress-xpath'
 import '@4tw/cypress-drag-drop'
 import 'cypress-iframe'
-
+require('ajv')
+import 'ajv'
+ 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

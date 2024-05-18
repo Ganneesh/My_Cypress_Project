@@ -20,10 +20,10 @@ function display(num)
 }
 
 
-display(19).then((data)=>{
+display(20).then((data)=>{
 
 
-    //console.log(data)
+    console.log(data)
 
 }).catch((data)=>{
 
@@ -33,3 +33,5 @@ console.log(data)
 
     console.log("I am always excuted")
 })
+
+

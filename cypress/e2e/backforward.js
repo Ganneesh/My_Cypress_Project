@@ -15,6 +15,7 @@ it('Demo of backword and forward from web page',()=>{
     cy.wait(2000)
     cy.go('forward')
     cy.wait(2000)
+    cy.get('.button').should('')
     
 
 })

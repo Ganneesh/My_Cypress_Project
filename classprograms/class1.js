@@ -4,13 +4,14 @@ class demo1
     constructor(a,b)
     {
         
-       this.a= a=10
-        this.b=b=30
+       this.a=a
+        this.b=b
 
     }
 
  addition()
     {
+    
 console.log("Addition is :- "+(this.a+this.b))
     }
 }
