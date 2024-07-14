@@ -1,0 +1,19 @@
+stages:
+  - test
+
+variables:
+  CYPRESS_BASE_URL: "http://localhost:8080"
+  TEST_PARAM: "default_value"
+
+test:
+  stage: test
+  image: cypress/base:10
+  script:
+    - npm ci
+    - npx cypress run --env test_param=$TEST_PARAM
+  artifacts:
+    when: always
+    paths:
+      - cypress/screenshots/**/*.png
+      - cypress/videos/**/*.mp4
+    expire_in: 1 week
